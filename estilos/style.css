@@ -24,10 +24,7 @@ body,html {
 }
 
 main {
-     position: absolute;/* 1o passo para centralizar o main( retirei o positio relative p/ funcionar
-     
-     
-     */ 
+            /* 1o passo para centralizar o main( retirei o positio relative p/ funciona */ 
     height: 80vw;
     width: 80vw;
      
