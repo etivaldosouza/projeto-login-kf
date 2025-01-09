@@ -30,12 +30,14 @@ Grandes telas: @media screen and (min-width: 1200px)
 
         float: left;
         width: 30vw;
+        height: 50vw;
     
     }    
   
     #formulario {
         float: right;
         width: 60%;
+        height: 50%;
     }
 
 }
@@ -52,13 +54,13 @@ Grandes telas: @media screen and (min-width: 1200px)
         width: 900px; /*independente do tamanho da tela grande a largura do login será esse*/
     } 
     #imagem {
-        float: left;
+        float: right;
         width: 60%;
         height: 100%;
     }
   
     #formulario {
-        float: right;
+        float: left;
         width: 70%;
         
     }
