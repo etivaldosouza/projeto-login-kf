@@ -45,7 +45,7 @@ main {
     height: 500px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.450);
 
-    /* ao colocar a img havia tirado a curvatura da borda e esse elemento corrige(esconde oq fica fora da borda*/
+    overflow: hidden;/* ao colocar a img havia tirado a curvatura da borda e esse elemento corrige(esconde oq fica fora da borda*/
 
     
 
@@ -66,4 +66,13 @@ main {
     display: block; /*visualmente ñ muda nada só estrategicamente*/
     padding: 10px;
 
+}
+
+#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+} 
+
+#formulario > p {
+    font-size: 0.9em;
 }
