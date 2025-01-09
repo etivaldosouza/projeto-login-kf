@@ -18,6 +18,7 @@ Grandes telas: @media screen and (min-width: 1200px)
 
         background-image: linear-gradient(to to bottom,#FF4500,#FFA500); /*como o tablet tem mais poder de processamento vale a pena criar um degradê*/
         width: 80vw;
+        height: 100vw;
     }
 
     
