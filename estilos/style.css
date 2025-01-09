@@ -23,8 +23,11 @@ body,html {
     width: 90vw;
 }
 
+/* 
+1o passo para centralizar o main( retirei o positio relative p/ funciona 
+*/ 
 main {
-            /* 1o passo para centralizar o main( retirei o positio relative p/ funciona */ 
+        
     height: 80vw;
     width: 80vw;
      
