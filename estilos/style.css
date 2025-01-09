@@ -6,7 +6,7 @@ PALETA DE CORRES
 
 laranja avermelhado:	#FF4500	(255,69,0)
 laranja escuro:	#FF8C00	(255,140,0)
-laranja:	#FFA500	(255,165,0)
+laranja: #FFA500	(255,165,0)
 
 */
 
@@ -17,6 +17,39 @@ laranja:	#FFA500	(255,165,0)
     box-sizing: border-box; /* a borda vai fazer parte da conta. por padrão ele testa por dentro da borda */
 }
 
-html,body {
+body,html {
+    background-color: #FF4500;
+    height: 100vh;
+    width: 100vw;
+}
 
+main {
+     /* 1o passo para centralizar o main( retirei o positio relative p/ funcionar
+     
+     
+     */ 
+    height: 100vw;
+    width: 100vw;
+     
+}
+
+#login {
+    /* tamanho ideal p/ cel */
+    width: 250px; 
+    height: 500px;
+
+    position: absolute; /* 2o passo p/ deixar centralizado no meio da pagina*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    background-color: white;
+    border-radius: 20px; 
+}
+
+#login > #imagem {
+    background-color: #FF8C00;
+    width: 100px;
+    background-size: cover;
+    
 }
