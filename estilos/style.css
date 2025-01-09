@@ -30,10 +30,15 @@ main {
         
     height: 80vw;
     width: 80vw;
-     
+    
 }
 
 #login {
+
+    position: absolute; /* 2o passo p/ deixar centralizado no meio da pagina*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     /* tamanho ideal p/ cel */
     width: 250px; 
     height: 500px;
@@ -41,10 +46,7 @@ main {
 
     overflow: hidden;/* ao colocar a img havia tirado a curvatura da borda e esse elemento corrige(esconde oq fica fora da borda*/
 
-    position: absolute; /* 2o passo p/ deixar centralizado no meio da pagina*/
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    
 
     background-color: white;
     border-radius: 20px; 
