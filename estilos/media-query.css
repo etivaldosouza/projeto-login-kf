@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints 
+------------------------------
+Pequenas Telas: @media screen and (max-width: 600px) 
+Celular e tabletes modo retrato: @media screen and (min-width: 600px)
+Tablet paisagem: @media screen and (min-width: 768px)
+laptops/Desktop: @media screen and (min-width: 992px) 
+Grandes telas: @media screen and (min-width: 1200px)
+
+*/
+
+/* P/ TABLET */
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    body {
+
+        background-image: linear-gradient(to to bottom,#FF4500,#FFA500); /*como o tablet tem mais poder de processamento vale a pena criar um degradê*/
+
+    }
+
+    #login {
+        width: 80vw;
+    }
+
+/* MUDANDO A POSIÇÃO DAS DIV'S IMG E FORM */
+
+    #imagem {
+
+        float: left;
+        width: 30vw;
+        height: 100vw;
+    
+    }    
+  
+    #formulario {
+        float: right;
+        width: 60%;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+
+    body {
+
+        background-image: linear-gradient(to to bottom,#FF4500,#FFA500);
+
+    }
+   
+    #login {
+        width: 900px; /*independente do tamanho da tela grande a largura do login será esse*/
+    } 
+    #imagem {
+        float: left;
+        width: 60%;
+        height: 100%;
+    }
+  
+    #formulario {
+        float: right;
+        width: 70%;
+        
+    }
+}
+
