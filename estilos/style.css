@@ -114,7 +114,9 @@ label {
     display: none;
 }
 
-
+input {
+    margin-top: 10px;
+}
 .botao {
     
     display: block;
