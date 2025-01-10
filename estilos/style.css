@@ -103,8 +103,17 @@ form > input[type=submit]:hover {
 .campo {
 
     background-color: #FF8C00;
-    
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;/* cima/baixo, dir/esq*/
 }
+
+label {
+    display: none;
+}
+
 
 .botao {
     
