@@ -14,65 +14,7 @@ Grandes telas: @media screen and (min-width: 1200px)
 
 @media screen and (min-width:768px) and (max-width:992px) {
 
-    body {
 
-        background-image: linear-gradient(to to bottom,#FF4500,#FFA500); /*como o tablet tem mais poder de processamento vale a pena criar um degradê*/
-       
-    }
 
     
-    
-    #login {
-        width: 70%;
-        
-        
-    }
-
-   
-    img {
-
-        width: 40%;
-        height: 45%;
-    
-    }    
-  
-    #formulario {
-        margin: auto;
-        width: 50%;
-        height: 50%;
-    }
-
 }
-
-@media screen and (min-width:992px) {
-
-    body {
-
-        background-image: linear-gradient(to to bottom,#FF4500,#FFA500);
-
-    }
-   
-    #login {
-        width: 900px; /*independente do tamanho da tela grande a largura do login será esse*/
-    } 
-    img {
-        
-        width: 40%;
-        height: 45%;
-    }
-  
-    #formulario {
-        margin: auto;
-        width: 50%;
-        
-    }
-
-    #formulario > h1 {
-        font-size: 2em;
-    }
-
-    #formulario > p {
-        font-size: 1.2em;
-    }
-}
-
