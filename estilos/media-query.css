@@ -15,6 +15,7 @@ Grandes telas: @media screen and (min-width: 1200px)
 @media screen and (min-width:768px) and (max-width:992px) {
 
     #login {
+
         width: 90vw;
         
     }
@@ -25,9 +26,25 @@ Grandes telas: @media screen and (min-width: 1200px)
     }
 
     #formulario {
-    width: 90%;
-    margin-left: 40px;
+        width: 90%;
+        margin-left: 40px;
     }
 
 }
 
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    #login{
+        width: 700px;
+        height: 600px;
+    }
+
+    img {
+        width: 50%;
+        height: 50%;
+    }
+
+    #formulario > p {
+        font-size: 1.3em;
+    }
+    
+}
