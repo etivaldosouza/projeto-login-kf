@@ -23,23 +23,23 @@ Grandes telas: @media screen and (min-width: 1200px)
     
     
     #login {
-        width: 80vw;
+        width: 70%;
+        
         
     }
 
-/* MUDANDO A POSIÇÃO DAS DIV'S IMG E FORM */
 
-    #imagem {
 
-        float: left;
-        width: 30vw;
-        height: 50vw;
+    img {
+
+        width: 40%;
+        height: 45%;
     
     }    
   
     #formulario {
-        float: right;
-        width: 60%;
+        margin: auto;
+        width: 50%;
         height: 50%;
     }
 
@@ -56,15 +56,15 @@ Grandes telas: @media screen and (min-width: 1200px)
     #login {
         width: 900px; /*independente do tamanho da tela grande a largura do login será esse*/
     } 
-    #imagem {
-        float: right;
-        width: 60%;
-        height: 100%;
+    img {
+        
+        width: 40%;
+        height: 45%;
     }
   
     #formulario {
-        float: left;
-        width: 70%;
+        margin: auto;
+        width: 50%;
         
     }
 
