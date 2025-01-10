@@ -30,7 +30,7 @@ body,html {
 main {
         
     height: 100vw;
-    width: 100vw;
+    width: 100vw;   
     
 }
 
@@ -47,24 +47,26 @@ main {
     
     overflow: hidden;/* ao colocar a img havia tirado a curvatura da borda e esse elemento corrige(esconde oq fica fora da borda*/
 
-    
-
     background-color: white;
     border-radius: 20px; 
    
 }
 
-#login > #imagem {
+    img {
     display: block; /*visualmente ñ muda nada só estrategicamente*/
     background-color: #FF8C00;
-    width: 250px;
-    height: 250px;   
+    width: 100%;
+    height:  40%; 
+    margin: auto;  
+    
     
 }
 
-#login > #formulario {
+#formulario {
     display: block; /*visualmente ñ muda nada só estrategicamente*/
-    padding: 10px;
+    
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 
@@ -82,12 +84,46 @@ form > input[type=submit] {
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: #ff8c00e5;
+    margin-top: 5px;
+    background-color: #FF8C00;
+    color: blue;
     border-radius: 5px;
-    border: none;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 1px black;
 }
 
 form > input[type=submit]:hover {
     background-color: #FF4500;
-    color: white;
+    color: rgb(0, 0, 255);
+    border: 1px solid blue;
+    
+    
+}
+
+.campo {
+
+    background-color: #FF8C00;
+    
+}
+
+.botao {
+    
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    background-color: #FF8C00;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px black;
+
+}
+
+
+.botao:hover {
+    border: 1px solid blue;
+    background-color: #FF4500;
 }
